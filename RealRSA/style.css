@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(27, 27, 27);
+    font-family: 'DM Mono', monospace;
+    height:950px;
+}
+.container {
+ 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-top: 4em;
+    flex: 1 1 0;
+    
+}
+.card {
+    text-align: center;
+    background: white;
+    width: 700px;
+    height: auto;
+    margin: 10px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+
+}
+.header-card {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    height: 120px;
+    margin-bottom: 15px;
+    font-size: 2em;
+    align-items: center;
+    
+    border-radius: 15px 15px 0 0;
+}
+
+
+.selector1{
+    padding: 30px;
+    
+}
+.btn {
+    margin-bottom: 40px;
+}
+
+input{
+    text-align: center;
+    width: 50px;
+  
+    height: 30px;
+}
+.textContainer {
+    padding: 40px;
+    justify-content: center;
+
+    display: flex;
+    gap: 20px;
+}
+.inputBox {
+    width: 50px;
+    
+    height: 30px;
+}
+.buttonConvert {
+    display: flex;
+ 
+    align-items: center;
+   
+    justify-content: center;
+}
+.btn {
+    margin-top: 30px;
+    width: 150px; /* Adjust this value as needed */
+    height: 50px; /* Adjust this value as needed */
+}
+.msgBox{
+    align-self: center;
+    width: 150px;
+}
+.result {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    align-self: center;
+}
